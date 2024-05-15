@@ -1,0 +1,47 @@
+@import url(common.css);
+body {
+  background: #c4c3c3;
+}
+
+body img {
+  width: 100%;
+  height: 150%;
+  bottom: 0px;
+
+
+  position: absolute;
+  opacity: 0.8;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.header {
+  position: relative;
+}
+
+.header .logo {
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  top: 20px;
+  font-weight: bold;
+  font-family: serif;
+  color: rgb(109, 196, 196);
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.header ul {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: serif;
+  position: fixed;
+  list-style-type: none;
+  margin-left: 25px;
+  margin-top: -20px;
+  line-height: 150%;
+  text-shadow: 2px 2px 4px rgb(205, 139, 23);
+}
