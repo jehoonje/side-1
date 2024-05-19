@@ -1,0 +1,72 @@
+@import url(../common.css);
+
+div.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/light.JPG);
+  opacity: 0.8;
+
+}
+
+div.logo {
+  font-family: serif;
+  padding-bottom: 20px;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+
+div.container .main-container {
+  width: 25%;
+  height: 400px;
+  background: rgb(55, 87, 57);
+  opacity: 0.7;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+div.main-container #id {
+  
+  width: 70%;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  font-size: 1.5em;
+
+  
+}
+
+div.main-container #pw {
+  width: 70%;
+  height: 50px;
+  margin-bottom: 10px;
+  
+  
+}
+
+#btn {
+  width: 40%;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 0.1px solid #b6b6b6;
+  font-size: 1em;
+  font-family: serif;
+  background: #b6b6b6;
+  ;
+}
+
+#btn:hover {
+  background: #1aad21;
+  color: pink;
+  border: 0px solid #000;
+}
+
+
+
